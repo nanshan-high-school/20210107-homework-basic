@@ -1,4 +1,4 @@
-#include <algorithm>
+ï»¿#include <algorithm>
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -35,8 +35,8 @@ int main() {
     goodgrade /= (score.size() / 2);
     badgrade /= (score.size() / 2);
 
-    cout << "¥­§¡¡G" << grade << "\n";
-    cout << "«e¥b¡G" << goodgrade << "\n";
-    cout << "«á¥b¡G" << badgrade << "\n";
+    cout << "å¹³å‡ï¼š" << grade << "\n";
+    cout << "å‰åŠï¼š" << goodgrade << "\n";
+    cout << "å¾ŒåŠï¼š" << badgrade << "\n";
     
 }
