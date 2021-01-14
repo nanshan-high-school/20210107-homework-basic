@@ -18,10 +18,10 @@ int main() {
                     avegfront = avegfront + vec.at(n);
                 }else if (n == (vec.size() / 2) - 1) {
                     avegfront = avegfront + vec.at(n);
-                    cout << "前半:" << avegfront / (vec.size()/2) << endl;
+                    cout << "前半:" << avegfront / (vec.size() / 2) << endl;
                 }else if (n == vec.size() - 1) {
                     avegback = avegback + vec.at(n);
-                    cout << "後半:" << avegback / (vec.size()/2) << endl;
+                    cout << "後半:" << avegback / (vec.size() / 2) << endl;
                 }else {
                     avegback = avegback + vec.at(n);
                 }
