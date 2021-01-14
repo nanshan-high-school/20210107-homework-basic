@@ -44,6 +44,4 @@ int main() {
     // for(auto n : F) { 
     //     cout << n << " ";
     // }
-    
-
 }
