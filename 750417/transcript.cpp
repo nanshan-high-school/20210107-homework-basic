@@ -13,18 +13,18 @@ int main() {
     } while (input != 0);
     
     scores.pop_back();
-    sort(scores.begin(), scores.end());
+    sort(scores.begin(), scores.end());  //由小排到大
 
     int totalfront = 0;
-    for (int i = 0; i < scores.size() / 2; i++) {
+    for (int i = scores.size() / 2; i < scores.size(); i ++) {
         totalfront += scores[i];
     }
-    
+
     int totalend = 0;
-    for (int i = scores.size() / 2; i < scores.size(); i ++) {
+    for (int i = 0; i < scores.size() / 2; i++) {
         totalend += scores[i];
     }
-
+    
     int total = 0;
     for (int i = 0; i < scores.size(); i++) {
         total += scores[i];
