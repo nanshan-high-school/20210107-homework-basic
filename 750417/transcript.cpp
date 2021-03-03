@@ -16,17 +16,17 @@ int main() {
     sort(scores.begin(), scores.end());
 
     int totalfront = 0;
-    for (int i = 0; i < scores.size() / 2; i++){
+    for (int i = 0; i < scores.size() / 2; i++) {
         totalfront += scores[i];
     }
     
     int totalend = 0;
-    for (int i = scores.size() / 2; i < scores.size(); i ++){
+    for (int i = scores.size() / 2; i < scores.size(); i ++) {
         totalend += scores[i];
     }
 
     int total = 0;
-    for (int i = 0; i < scores.size(); i++){
+    for (int i = 0; i < scores.size(); i++) {
         total += scores[i];
     }
 
